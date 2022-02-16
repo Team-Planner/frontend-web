@@ -4,7 +4,7 @@ const LandingPage: React.FC = () => {
   return (
     <React.Fragment>
       <h1>
-        GUWNO
+        LANDING PAGE CONTENT
       </h1>
     </React.Fragment>
   );
