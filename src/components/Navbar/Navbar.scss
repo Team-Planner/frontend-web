@@ -1,12 +1,18 @@
+@import "../../constants/variables.scss";
 
 .navbar {
   position: fixed;
+  display: flex;
+  justify-content: center;
   top: 0;
   width: 100%;
-  height: 20px;
-  background-color: aqua;
+  background-color: $test-color;
+  box-sizing: border-box;
+  font-weight: 900;
 }
 
 .navbar-content {
   display: flex;
+  justify-content: space-between;
+  width: $xl-container;
 }
