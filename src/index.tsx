@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { QueryClient, QueryClientProvider } from 'react-query';
+import './i18n';
 import App from './App';
 
 const queryClient = new QueryClient();
