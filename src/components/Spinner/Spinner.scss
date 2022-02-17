@@ -1,0 +1,44 @@
+@import "../../constants/variables.scss";
+
+.sm {
+  width: 10px;
+  height: 10px;
+  border-width: 3px;
+}
+.md {
+  width: 15px;
+  height: 15px;
+  border-width: 4px;
+}
+.lg {
+  width: 20px;
+  height: 20px;
+  border-width: 7px;
+}
+.xl {
+  width: 30px;
+  height: 30px;
+  border-width: 8px;
+}
+.xxl {
+  width: 50px;
+  height: 50px;
+  border-width: 8px;
+}
+
+.spinner {
+  border-style: solid;
+  border-color: $primary-color;
+  border-radius: 100%;
+  border-top-color: transparent;
+  animation: spin 1s linear infinite;
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

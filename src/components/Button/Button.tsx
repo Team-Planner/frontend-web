@@ -1,4 +1,5 @@
 import React, { ReactNode } from "react";
+import Spinner from "../Spinner/Spinner";
 import "./Button.scss"
 
 interface ButtonProps {
@@ -19,6 +20,7 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <div onClick={() => onClick()} className={`button ${className}`}>
       {children}
+      {/* {true && <Spinner size="sm"/>} */}
     </div>
   );
 }
