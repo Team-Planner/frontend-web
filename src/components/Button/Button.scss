@@ -1,6 +1,36 @@
+@import "../../constants/variables.scss";
+
 .button {
   display: flex;
+  align-items: center;
   justify-content: center;
-  justify-items: center;
   cursor: pointer;
+  column-gap: 10px;
+}
+
+.button-outlined {
+  border: solid 2px $primary-color; 
+  color: $primary-color;
+  font-weight: 600;
+  font-size: large;
+  border-radius: 25px;
+  padding: 8px;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background-color: $primary-color;
+    color: white;
+
+    .spinner {
+      border-color: white;
+      border-top-color: transparent;
+    }
+
+  }
+
+}
+
+.button-md {
+  // width: 100px;
+  // TODO: add padding here
 }
